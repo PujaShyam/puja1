@@ -1,0 +1,424 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-header {
+    padding: 25px 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.page-header .menu {
+    padding-top: 48px;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    color: #000;
+}
+
+.banner {
+    background-image: url(../images/banner-1.png), url(../images/banner-2.png);
+    background-repeat: no-repeat;
+    background-position: right, left;
+    background-size: 44%, 12%;
+    padding: 100px 0;
+}
+
+.banner h6 {
+    color: #ff817e;
+    font-size: 15px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.banner h1 {
+    font-size: 60px;
+    padding-bottom: 26px;
+}
+
+.banner p {
+    font-size: 15px;
+    color: #555555;
+    line-height: 22px;
+    padding-bottom: 55px;
+
+}
+
+.banner-info {
+    padding-top: 73px;
+}
+
+.banner .btn {
+    background-color: #ff817e;
+    color: #fff;
+    padding: 19px 26px;
+    text-transform: uppercase;
+
+}
+
+.banner .btn-1 {
+    margin: 0 0px 0px 20px;
+}
+
+.banner .text {
+    color: #000;
+    text-transform: capitalize;
+}
+
+.spa {
+    padding: 137px 0;
+    position: relative;
+}
+
+.spa .flower-1 {
+    position: absolute;
+    top: 0%;
+    left: 12%;
+
+}
+
+.spa .flower-2 {
+    position: absolute;
+    top: 32%;
+    right: 6%;
+}
+
+.spa .butterfly {
+    position: absolute;
+    top: 13%;
+    left: 48%;
+}
+
+.spa h6 {
+    padding-bottom: 43px;
+    color: #a8a8a8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.spa h2 {
+    padding-bottom: 51px;
+    font-size: 42px;
+
+}
+
+.spa p {
+    color: #a8a8a8;
+    font-size: 15px;
+    line-height: 28px;
+    padding-bottom: 72px;
+}
+
+
+.spa .btn-3 {
+    background-color: #ff817e;
+    border-radius: 50px;
+    color: #fff;
+    padding: 17px 45px;
+    text-transform: uppercase;
+}
+
+.gallery {
+    column-count: 4;
+    column-gap: 4px;
+}
+
+.gallery-img img {
+    width: 100%;
+}
+
+.popular {
+    padding: 140px 0;
+}
+
+.popular h2 {
+    padding-bottom: 40px;
+    font-size: 42px;
+}
+
+.popular .ex {
+    color: #a8a8a8;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 91px;
+    letter-spacing: 1px;
+}
+
+.popular .box h5 {
+    font-size: 22px;
+    padding: 40px 0 32px;
+}
+
+.box {
+    border: 1px solid #a8a8a8;
+    padding: 19px 21px 50px;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+
+.box:hover {
+    box-shadow: 1px 2px 12px 8px #edeef1;
+    border: none;
+    transition: all 1s;
+}
+
+.box p {
+    font-size: 14px;
+    color: #a8a8a8;
+    line-height: 22px;
+    padding-bottom: 45px;
+}
+
+.box .btn-4 {
+    background-color: #30383b;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 50px;
+    padding: 16px 36px;
+}
+
+.box:hover .btn-4 {
+    background-color: #ff817e;
+}
+
+.executive {
+    padding: 135px 0;
+    background-color: #fff9f8;
+}
+
+.executive p {
+    padding: 51px 0;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.executive .pic {
+    border-radius: 50px;
+}
+
+.executive h5 {
+    padding: 30px 0;
+    font-size: 22px;
+}
+
+.executive .jack {
+    font-size: 15px;
+}
+
+.team {
+    padding: 130px 0 195px;
+    margin: 0 auto;
+}
+
+.team h2 {
+    padding-bottom: 40px;
+    font-size: 42px;
+}
+
+.team p {
+    color: #a8a8a8;
+    font-size: 15px;
+    padding-bottom: 89px;
+    letter-spacing: 1px;
+}
+
+.box-1 {
+    position: relative;
+}
+
+.overlay h6 {
+    padding: 15px 0;
+}
+
+.overlay p {
+    padding-bottom: 15px;
+}
+
+.overlay .btn-6 {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 8px;
+    margin: 0 2px;
+    border-radius: 65%;
+
+}
+
+.btn-6:hover {
+    background-color: #ff817e;
+    color: #fff;
+    border: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 71%;
+    bottom: -18%;
+    left: 20%;
+    right: 20%;
+    background-color: #fff;
+    box-shadow: 2px 3px 4px 2px #edeeee;
+    padding: 14px 0;
+    text-align: center;
+}
+
+.appoint {
+    background: #fff9f8 url(../images/pic8.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 45%;
+}
+
+.form-box {
+    padding: 112px 30px;
+}
+
+.fill-up {
+    padding: 120px 0 85px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #a8a8a8;
+
+}
+
+.fill {
+    padding: 120px 0 85px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #a8a8a8;
+
+}
+
+.touch {
+    padding: 142px 0 67px;
+}
+
+.touch h2 {
+    font-size: 42px;
+    padding-bottom: 39px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.touch .frm {
+    font-size: 15px;
+    color: #a8a8a8;
+    line-height: 26px;
+    letter-spacing: 1px;
+    padding-bottom: 88px;
+    text-align: center;
+}
+
+.form-group .btn-8 {
+    border: none;
+    border-radius: 50px;
+    background-color: #ff817e;
+    padding: 13px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group .form-sec {
+    width: 130%;
+    padding: 14px;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+
+.address p {
+    margin: 40px 0;
+    color: #a8a8a8;
+    font-size: 14px;
+}
+
+.address .fa {
+    color: #fff;
+    background-color: #ff817e;
+    border-radius: 50%;
+    padding: 8px 10px;
+    font-size: 16px;
+}
+
+.bottom {
+    background-color: #fff9f8;
+    padding: 100px 0;
+}
+
+.list li a {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.bottom .leospa {
+    padding-bottom: 51px;
+}
+
+.btn-9 {
+    border: none;
+    cursor: pointer;
+    background-color: #fff9f8;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-9:hover {
+    color: #ff817e;
+}
+
+.icons {
+    padding: 47px 0;
+}
+
+.icons .extra {
+    border-left: 1px solid #000;
+    padding: 0 8px;
+}
+
+.ejob {
+    color: #ff817e;
+    font-size: 16px;
+}
+
+.bottom p {
+    color: #a8a8a8;
+    font-size: 16px;
+}
